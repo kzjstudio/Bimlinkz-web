@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+/* ********************* */
+/* Header */
+/* ******************** */
+.header{
+    padding: 2rem 14rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2ef3f7;
+    height: 4rem;
+}
+
+/* ********************* */
+/* Navigation */
+/* ******************** */
+.main-nav-list{
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+
+
+}
+
+.main-nav-link,
+.main-nav-link:visited{
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.5rem;
+
+}
+
+.nav-join
+{
+  padding: 6px 10px;
+  border-style: solid;
+  border-radius: 9px;
+  transition: all 0.3;
+}
+
+ .nav-join:hover
+ {
+ background-color: #2ef3f7;
+  
+} 
+
+.search-section{
+  padding: 10rem 14rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.search-field{
+  height: 2rem;
+  width: 40rem;
+}
+
